@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1_styles_add_tareas.css">
+    
+</head>
+<body>
+    <input id="tarea" type="text" placeholder="Introduce la tarea">
+    <input id="boton" type="submit" value="Agregar tarea">
+    <br>
+    <h1>Mis tareas:</h1>
+    <hr>
+    
+    <ul>
+        <li>Aprender Desarrollo Web</li>
+    </ul>
+    <script src="main.js" type="text/javascript"></script>
+
+    <!--<script>
+                //Seleccionar los elementos HTML que necesitamos
+
+        var input = document.getElementById("tarea")
+        var boton = document.getElementById("boton")
+        var tareas = document.querySelector("ul")
+
+        //Cuando se haga click en el botón
+        boton.addEventListener("click", function() {
+            //Obtener lo que hay escrito en la caja input
+
+            var tarea = input.value
+
+            //Añadirlo como nuevo elemento de la lista desordenada
+
+            var li = document.createElement("li")
+            li.textContent = tarea
+            tareas.appendChild(li)
+
+        })
+    </script>-->
+    
+</body>
+</html>

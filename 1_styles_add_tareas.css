@@ -3,6 +3,10 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
+button{
+    margin-top: 10px;
+}
+
 #tarea{
     display: block;
 }
