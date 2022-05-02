@@ -1,0 +1,18 @@
+body{
+    background-color: #f5f6f7;
+}
+
+main{
+    font-family: sans-serif;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.contenido h1, .contenido h2, .contenido h3{
+    font-size: 35px;
+}
+
+.iconos p{
+    font-weight: bold;
+}
+
