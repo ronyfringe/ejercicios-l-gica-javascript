@@ -6,10 +6,16 @@ main{
     font-family: sans-serif;
     width: 600px;
     margin: 0 auto;
+    /*background-color: red;*/
 }
 
-.contenido h1, .contenido h2, .contenido h3{
+.contenido h1, .contenido h2, .contenido h3 {
     font-size: 35px;
+}
+
+.contenido h1::first-letter , .contenido h2::first-letter , 
+.contenido h3::first-letter {
+    text-decoration: underline;
 }
 
 /*iconos*/
@@ -34,11 +40,41 @@ main{
 }
 
 /*resto*/
+
+.resto {
+    margin-top: 20px;
+}
+
 .resto a {
     font-family: monospace;
     font-size: 24px;
     color: black;
     text-decoration: none;
     letter-spacing: 3px;
+    /*background-color: #feac32;*/
+    background-image: linear-gradient(#fecc4c,#ffac33);
+    border: 3px solid orange;
+    /*padding-left: 100px;
+    padding-right: 100px;*/
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
 }
 
+.resto a:hover {
+    background-image: linear-gradient(#fecc4c,#f0d2a7);
+}
+
+.resto img {
+    width: 100%;
+}
+
+.resto h4 {
+    text-align: center;
+}
+
+/*freecodecamp clonated by RRTC*/
